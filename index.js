@@ -5,7 +5,7 @@ import "dotenv/config";
 
 const app = express();
 const port = 4000;
-const mongooseConnection = process.env.mongooseConnection
+const mongooseConnection = "mongodb+srv://admin1:0mtEbDSJ9JjeT4vb@cluster0.obyfim1.mongodb.net/test"
 
 // Mongoose Setup
 mongoose.connect(mongooseConnection);
